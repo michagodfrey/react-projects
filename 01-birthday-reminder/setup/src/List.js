@@ -1,6 +1,7 @@
 import React from 'react';
 
-const List = ({people}) => {  
+// note how people is in curly braces {}
+const List = ({people}) => {
   return (
     <>
       {people.map((person) => {

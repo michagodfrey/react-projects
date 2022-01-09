@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import data from './data';
 import List from './List';
 
+// note how the data is imported here above from data.js, and passed to the List component
 function App() {
   const [people, setPeople] = useState(data)
   return (
